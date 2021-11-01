@@ -1,0 +1,179 @@
+body {
+  font-family: 'Roboto', sans-serif;
+   background: #ffffffda; 
+  /* color: #FEFEFE; */
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+  transition: 400ms;
+}
+
+h1:hover {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+p {
+  font-size: 18px;
+}
+
+header {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.barra-navegacao ul {
+  display: flex;
+}
+
+.barra-navegacao a {
+  text-decoration: none;
+  color: black;
+  background: rgb(0, 166, 81);
+
+  transition: 400ms;
+
+  border-radius: 5px;
+
+  padding: 5px 15px;
+  margin-left: 10px;
+}
+
+.barra-navegacao a:hover {
+  background: #01C534;
+  color: #FFFFFF;
+  
+  box-shadow: 5px 5px 5px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Main */
+main {
+}
+
+.banner img {
+  display: block;
+  width: 1100px;
+  height: 450px;
+  margin: 0 auto;
+  border-radius: 5px;
+} 
+
+.funcionamento {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  /* border:1px solid red ; */
+}
+
+.funcionamento-imagem {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.descricao-funcionamento {
+  margin-top: 20px;
+  width: 50%;
+  text-align: justify;
+}
+
+.descricao-funcionamento li::before {
+  content: url("https://img.icons8.com/fluency/24/000000/leaf.png");
+}
+
+.descricao-funcionamento li {
+  height: 40px;
+  line-height: 1.5;
+  vertical-align: bottom;
+  transition: 400ms;
+}
+
+.descricao-funcionamento li:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.imagem-funcionamento img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  transition: 400ms;
+}
+
+.imagem-funcionamento img:hover {
+  box-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+}
+
+
+/* Orçamento */
+.btn-solicitar-orcamento {
+  background: rgb(0, 166, 81);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 20%;
+  font-size: 18px;
+  transition: 400ms;
+}
+
+.btn-solicitar-orcamento a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn-solicitar-orcamento:hover {
+  background: #01C534;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.btn-solicitar-orcamentoa a:hover {
+  color: red;
+}
+
+
+
+
+
+
+
+footer {
+  background: rgb(0, 166, 81);
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .container {
+  align-items: center;
+}
+
+.redes-sociais a{
+  text-decoration: none;
+}
