@@ -1,0 +1,136 @@
+@media (max-width: 768px) {
+  /* Geral */
+  body, header, main, footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+    transition: 400ms;
+    margin-bottom: 10px;
+  }
+  
+  h1:hover {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
+  /* Header - cabeçalho */
+  header .container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .titulo-principal {
+    margin-top: 10px;
+  }
+
+  /* Barra de navegação */
+  .barra-navegacao  {
+    margin-top: 5px;
+  }
+
+  .barra-navegacao a {
+    padding: 5px;
+  }
+
+  /* Main - conteúdo principal */
+  /* Banner */
+  .banner img {
+    width: 450px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 5px
+  }
+
+  /* Funcionamento */
+  section .funcionamento {
+    width: 100%;
+  }
+
+  .funcionamento {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .funcionamento-imagem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .descricao-funcionamento {
+    margin-top: 10px;
+    width: 100%;
+    text-align: justify;
+  }
+  
+  .descricao-funcionamento li::before {
+    content: url("https://img.icons8.com/fluency/24/000000/leaf.png");
+  }
+  
+  .descricao-funcionamento li {
+    line-height: 1.5;
+    vertical-align: bottom;
+    transition: 400ms;
+  }
+  
+  .descricao-funcionamento li:hover {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .imagem-funcionamento img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn-solicitar-orcamento {
+    width: 220px;
+  }
+
+  .orcamento-div {
+    margin-bottom: 10px;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .footer-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+  }
+  
+  .redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+}
+

@@ -20,16 +20,19 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
 
     <!-- Título -->
     <title>JDE Manutenção urbana</title>
   </head>
+
   <body>
     <header>
-
       <div class="container">
-        <h1>JDE Manutenção urbana</h1>
+        <h1 class="titulo-principal">JDE Manutenção urbana</h1>
+
         <nav class="barra-navegacao">
           <ul>
             <li>
@@ -47,20 +50,21 @@
 
     </header>
 
-
     <main>
-      <div>
+      <div class="container">
         <div class="banner">
-          <img src="img/banner.png" alt="">
+          <img src="img/banner.png" alt="Imagem de uma mão segurando uma planta exemplificando o meio ambiente">
         </div>
 
-        <div class="funcionamento">
+        <section class="funcionamento">
           <h2>Como funciona ?</h2>
 
-          <section class="funcionamento-imagem">
+          <div class="funcionamento-imagem">
             <div class="descricao-funcionamento">
               <p>Somos uma empresa localizada em Palmas-TO que realiza serviços de jardinagem com muita qualidade e responsabilidade.</p> <br>
+
               <p>Nossos serviços:</p> <br>
+
               <ul>
                 <li>Poda de formação</li>
                 <li>Poda de limpeza</li>
@@ -68,22 +72,27 @@
                 <li>Poda de adequação</li>
                 <li>E muito mais</li>
               </ul>
-            </div>
-            <div class="imagem-funcionamento">
-              <img src="img/foto-floresta.png" alt="">
-            </div>
-          </section>
 
-          <section class="orcamento">
+            </div>
+
+            <div class="imagem-funcionamento">
+              <img src="img/foto-floresta.png" alt="Imagem de uma floresta">
+            </div>
+          </div>
+        </section>
+
+        <section class="orcamento">
+          <div class="orcamento-div">
             <h2>Gostou ?</h2> <br>
             <p>Então solicite um orçamento</p><br>
             <button class="btn-solicitar-orcamento">
-              <a href="">Solicitar orçamento</a>
-             </button>
-            <!-- <img src="img/foto-floresta2.png" alt=""> -->
-          </section>
+              <a href="https://wa.me/5563984688659?text=Ol%C3%A1%20JDE%20Manuten%C3%A7%C3%A3o%20Urbana,%20vim%20atrav%C3%A9s%20do%20seu%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento">
+                Solicitar orçamento</a>
+            </button>
+          </div>
           
-        </div>
+        </section>
+
       </div>
     </main>
 
@@ -91,20 +100,29 @@
     <footer>
       <div class="container">
         <div class="footer-logo">
-          <img src="img/logo.jpg" alt="">
+          <a href="index.html">
+            <img src="img/logo.jpg" alt="Logo da empresa JDE Manutenção Urbana">
+          </a>
         </div>
-        <div>
+
+        <div class="nome-empresa">
           <h2>JDE Manutenção Urbana</h2> <br>
           <p>Todos os direitos reservados&copy</p>
         </div>
+
         <div class="redes-sociais">
+          <!-- E-mail -->
           <a href="mailto:raffaeleloi121@gmail.com" target="_blank">
             <img src="https://img.icons8.com/fluency/48/000000/gmail.png"/>
           </a>
+
+          <!-- Linkedin -->
           <a href="https://www.linkedin.com/in/raffael-eloi/" target="_blank">
             <img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/>
           </a>
-          <a href="https://www.instagram.com/raffa_eloi/" target="_blank">
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/jde_manutencaourbana/" target="_blank">
             <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
           </a>
         </div>
